@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+}
+
+.dashboard_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 6px;
+}
+
+h4{
+    font-size: 14px;
+    margin: 0;
+}
+
+.dashboard_main{
+    margin-top: 20px;
+}
+
+.dashboard_head{
+    display: flex;
+    align-items: center;
+}
+
+.dashboard_head_left{
+    margin-right: 30px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .dashboard_point{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .pointleft{
+      display: flex;
+      align-items: center;
+  }
+
+  .point_avatar{
+      display: flex;
+      align-items: center;
+  }
+
+  .pointleft input{
+      margin-right: 22px;
+  }
+
+  .star{
+      margin-right: 22px;
+  }
+
+  .point_avatar h4{
+      font-weight: 600;
+  }
+
+  .pointmid span{
+      font-weight: 600;
+  }
+
+  .star img{
+      width: 20px;
+  }
+
+  .dashboard_point{
+      padding-top: 18px;
+      padding-bottom: 12px;
+  }
+
+  .pointright img{
+    width: 20px;
+    margin-right: 14px;
+  }
+
+  .pointright{
+      display: flex;
+      align-items: center;
+  }
+
+  .pointright h4{
+      font-weight: 600;
+  }
+
+  .dashboard_main{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 6px;
+  }
+
+  .dashboard_head{
+      border-bottom: 1px solid lightgray;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 24px;
+      padding-right: 24px;
+  }
+
+  .dashboard_point{
+    border-bottom: 1px solid lightgray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .total_results p{
+      margin: 0;
+      font-size: 13px;
+      color: gray;
+  }
+
+  .dashboard_head_left img{
+      width: 20px;
+      margin-right: 14px;
+  }
+
+  .dashboard_head_left{
+      display: flex;
+      align-items: center;
+  }
+
+  .dashboard_head_right img{
+    width: 20px;
+    margin-right: 14px;
+}
+
+.dashboard_head_right{
+    display: flex;
+    align-items: center;
+}
+
+.dashboard_top_left button img{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 2px;
+    background-color: white;
+   padding: 2px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 6px;
+}
+
+.dashboard_top_left button{
+    border: none;
+    background-color: #6B95BE;
+    color: white;
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 8px;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    outline-width: 0;
+}
+
+.dashboard_top_left h4{
+    font-weight: 600;
+}
+
+.compose_popup{
+    width: 30%;
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    background-color: white;
+    padding: 20px 20px 20px;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.pophead_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pophead_left{
+    padding-bottom: 40px;
+}
+
+.pophead_left h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: gray;
+}
+
+.popupbody_1{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+}
+
+.popupbody_1 input{
+    border: none;
+    outline-width: 0;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.popupbody_1{
+    margin-bottom: 10px;
+}
+
+.popupbody_1 label{
+    margin: 0;
+    color: gray;
+    font-size: 13px;
+}
+
+.popupbody_1 textarea{
+    border: none;
+    outline-width: 0;
+    width: 100%;
+    font-size: 13px;
+    padding-left: 0;
+}
+
+.footer_left img{
+    width: 18px;
+}
+
+.popupbody_footer{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_left button{
+    background-color: #1a73e8;
+    border: none;
+    color: white;
+    outline-width: 0;
+    padding: 3px 15px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.footer_left img{
+    margin-right: 10px;
+}
+
+.footer_right img{
+    width: 18px;
+    margin-right: 6px;
+}
+
+.textbody{
+    border-bottom: none;
+}
+
+.compose_popup{
+    transform: translateY(200%);
+    transition: 200ms ease-out;
+}
+
+.compose_popup.show{
+    transform: inherit;
+}
